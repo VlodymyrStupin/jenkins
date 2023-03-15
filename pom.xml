@@ -14,7 +14,7 @@
     <name>jenkins</name>
     <description>Demo project for Spring Boot</description>
     <properties>
-        <maven.compiler.release>17</maven.compiler.release>
+        <java.version>16</java.version>
     </properties>
     <dependencies>
         <dependency>
@@ -39,8 +39,8 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <configuration>
-                    <source>17.0.4</source> <!-- Replace with your target release version -->
-                    <target>17.0.4</target> <!-- Replace with your target release version -->
+                    <source>16</source> <!-- Replace with your target release version -->
+                    <target>16</target> <!-- Replace with your target release version -->
                 </configuration>
             </plugin>
             <plugin>
